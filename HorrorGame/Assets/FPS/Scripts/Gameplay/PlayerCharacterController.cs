@@ -1,4 +1,5 @@
-﻿using Unity.FPS.Game;
+﻿using System;
+using Unity.FPS.Game;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -39,7 +40,7 @@ namespace Unity.FPS.Gameplay
         public float AccelerationSpeedInAir = 25f;
 
         [Tooltip("Multiplicator for the sprint speed (based on grounded speed)")]
-        public float SprintSpeedModifier = 2f;
+        public float SprintSpeedModifier = 0f;
 
         [Tooltip("Height at which the player dies instantly when falling off the map")]
         public float KillHeight = -50f;
@@ -130,6 +131,8 @@ namespace Unity.FPS.Gameplay
         float m_FootstepDistanceCounter;
         float m_TargetCharacterHeight;
 
+        bool isSprinting;
+
         const float k_JumpGroundingPreventionTime = 0.2f;
         const float k_GroundCheckDistanceInAir = 0.07f;
 
@@ -204,6 +207,7 @@ namespace Unity.FPS.Gameplay
                     AudioSource.PlayOneShot(LandSfx);
                 }
             }
+
 
             // crouching
             if (m_InputHandler.GetCrouchInputDown())
@@ -287,14 +291,14 @@ namespace Unity.FPS.Gameplay
             }
 
             // character movement handling
-            bool isSprinting = m_InputHandler.GetSprintInputHeld();
+            isSprinting = m_InputHandler.GetSprintInputHeld();
             {
                 if (isSprinting)
                 {
                     isSprinting = SetCrouchingState(false, false);
                 }
 
-                float speedModifier = isSprinting ? SprintSpeedModifier : 1f;
+                //float speedModifier = isSprinting ? SprintSpeedModifier : 1f;
 
                 // converts move input to a worldspace vector based on our character's transform orientation
                 Vector3 worldspaceMoveInput = transform.TransformVector(m_InputHandler.GetMoveInput());
@@ -303,7 +307,7 @@ namespace Unity.FPS.Gameplay
                 if (IsGrounded)
                 {
                     // calculate the desired velocity from inputs, max speed, and current slope
-                    Vector3 targetVelocity = worldspaceMoveInput * MaxSpeedOnGround * speedModifier;
+                    Vector3 targetVelocity = worldspaceMoveInput * MaxSpeedOnGround;
                     // reduce speed if crouching by crouch speed ratio
                     if (IsCrouching)
                         targetVelocity *= MaxSpeedCrouchedRatio;
@@ -360,7 +364,7 @@ namespace Unity.FPS.Gameplay
                     // limit air speed to a maximum, but only horizontally
                     float verticalVelocity = CharacterVelocity.y;
                     Vector3 horizontalVelocity = Vector3.ProjectOnPlane(CharacterVelocity, Vector3.up);
-                    horizontalVelocity = Vector3.ClampMagnitude(horizontalVelocity, MaxSpeedInAir * speedModifier);
+                    horizontalVelocity = Vector3.ClampMagnitude(horizontalVelocity, MaxSpeedInAir);
                     CharacterVelocity = horizontalVelocity + (Vector3.up * verticalVelocity);
 
                     // apply the gravity to the velocity
