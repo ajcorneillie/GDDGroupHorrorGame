@@ -104,18 +104,6 @@ namespace Unity.FPS.Gameplay
         public bool IsDead { get; private set; }
         public bool IsCrouching { get; private set; }
 
-        public float RotationMultiplier
-        {
-            get
-            {
-                if (m_WeaponsManager.IsAiming)
-                {
-                    return AimingRotationMultiplier;
-                }
-
-                return 1f;
-            }
-        }
 
         Health m_Health;
         PlayerInputHandler m_InputHandler;
@@ -151,19 +139,10 @@ namespace Unity.FPS.Gameplay
             DebugUtility.HandleErrorIfNullGetComponent<PlayerInputHandler, PlayerCharacterController>(m_InputHandler,
                 this, gameObject);
 
-            m_WeaponsManager = GetComponent<PlayerWeaponsManager>();
-            DebugUtility.HandleErrorIfNullGetComponent<PlayerWeaponsManager, PlayerCharacterController>(
-                m_WeaponsManager, this, gameObject);
-
-            m_Health = GetComponent<Health>();
-            DebugUtility.HandleErrorIfNullGetComponent<Health, PlayerCharacterController>(m_Health, this, gameObject);
-
             m_Actor = GetComponent<Actor>();
             DebugUtility.HandleErrorIfNullGetComponent<Actor, PlayerCharacterController>(m_Actor, this, gameObject);
 
             m_Controller.enableOverlapRecovery = true;
-
-            m_Health.OnDie += OnDie;
 
             // force the crouch state to false when starting
             SetCrouchingState(false, true);
@@ -270,14 +249,14 @@ namespace Unity.FPS.Gameplay
             {
                 // rotate the transform with the input speed around its local Y axis
                 transform.Rotate(
-                    new Vector3(0f, (m_InputHandler.GetLookInputsHorizontal() * RotationSpeed * RotationMultiplier),
+                    new Vector3(0f, (m_InputHandler.GetLookInputsHorizontal() * RotationSpeed * 1),
                         0f), Space.Self);
             }
 
             // vertical camera rotation
             {
                 // add vertical inputs to the camera's vertical angle
-                m_CameraVerticalAngle += m_InputHandler.GetLookInputsVertical() * RotationSpeed * RotationMultiplier;
+                m_CameraVerticalAngle += m_InputHandler.GetLookInputsVertical() * RotationSpeed * 1;
 
                 // limit the camera's vertical angle to min/max
                 m_CameraVerticalAngle = Mathf.Clamp(m_CameraVerticalAngle, -89f, 89f);

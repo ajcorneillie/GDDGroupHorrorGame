@@ -140,14 +140,9 @@ namespace Unity.FPS.AI
             m_GameFlowManager = FindAnyObjectByType<GameFlowManager>();
             DebugUtility.HandleErrorIfNullFindObject<GameFlowManager, EnemyController>(m_GameFlowManager, this);
 
-            // Subscribe to damage & death actions
-            m_Health.OnDie += OnDie;
-            m_Health.OnDamaged += OnDamaged;
 
-            // Find and initialize all weapons
-            FindAndInitializeAllWeapons();
-            var weapon = GetCurrentWeapon();
-            weapon.ShowWeapon(true);
+
+
 
             var detectionModules = GetComponentsInChildren<DetectionModule>();
             DebugUtility.HandleErrorIfNoComponentFound<DetectionModule, EnemyController>(detectionModules.Length, this,
