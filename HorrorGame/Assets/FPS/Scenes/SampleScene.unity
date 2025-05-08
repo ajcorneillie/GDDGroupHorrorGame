@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 19737690}
   - component: {fileID: 19737689}
   - component: {fileID: 19737688}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 28830431}
   - component: {fileID: 28830430}
   - component: {fileID: 28830429}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,6 +347,7 @@ GameObject:
   - component: {fileID: 49774563}
   - component: {fileID: 49774562}
   - component: {fileID: 49774561}
+  - component: {fileID: 49774565}
   m_Layer: 0
   m_Name: Barn
   m_TagString: Untagged
@@ -443,6 +444,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &49774565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49774560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90068f5c8ba86d3499874221895df26b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_IgnoreFromBuild: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &85915795
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +472,7 @@ GameObject:
   - component: {fileID: 85915799}
   - component: {fileID: 85915798}
   - component: {fileID: 85915797}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,7 +580,7 @@ GameObject:
   - component: {fileID: 141197403}
   - component: {fileID: 141197402}
   - component: {fileID: 141197401}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -671,7 +688,7 @@ GameObject:
   - component: {fileID: 152383471}
   - component: {fileID: 152383470}
   - component: {fileID: 152383469}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -779,7 +796,7 @@ GameObject:
   - component: {fileID: 184289567}
   - component: {fileID: 184289566}
   - component: {fileID: 184289565}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -875,6 +892,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184289563}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &187243322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 187243323}
+  m_Layer: 0
+  m_Name: patrol1 (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &187243323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187243322}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 221.2, y: 0, z: -8.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805831605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &202580887
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,7 +935,7 @@ GameObject:
   - component: {fileID: 202580891}
   - component: {fileID: 202580890}
   - component: {fileID: 202580889}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -995,7 +1043,7 @@ GameObject:
   - component: {fileID: 223192826}
   - component: {fileID: 223192825}
   - component: {fileID: 223192824}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1103,7 +1151,7 @@ GameObject:
   - component: {fileID: 239354377}
   - component: {fileID: 239354376}
   - component: {fileID: 239354375}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1211,6 +1259,7 @@ GameObject:
   - component: {fileID: 280431622}
   - component: {fileID: 280431621}
   - component: {fileID: 280431620}
+  - component: {fileID: 280431624}
   m_Layer: 0
   m_Name: CarPart (1)
   m_TagString: Untagged
@@ -1307,6 +1356,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &280431624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280431619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90068f5c8ba86d3499874221895df26b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_IgnoreFromBuild: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &290655072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1319,7 +1384,7 @@ GameObject:
   - component: {fileID: 290655076}
   - component: {fileID: 290655075}
   - component: {fileID: 290655074}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1427,7 +1492,7 @@ GameObject:
   - component: {fileID: 360281101}
   - component: {fileID: 360281100}
   - component: {fileID: 360281099}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1810,7 +1875,7 @@ GameObject:
   - component: {fileID: 447471258}
   - component: {fileID: 447471257}
   - component: {fileID: 447471256}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1918,7 +1983,7 @@ GameObject:
   - component: {fileID: 459804395}
   - component: {fileID: 459804394}
   - component: {fileID: 459804393}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2026,7 +2091,7 @@ GameObject:
   - component: {fileID: 473303323}
   - component: {fileID: 473303322}
   - component: {fileID: 473303321}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2134,7 +2199,7 @@ GameObject:
   - component: {fileID: 484880113}
   - component: {fileID: 484880112}
   - component: {fileID: 484880111}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2242,7 +2307,7 @@ GameObject:
   - component: {fileID: 492929962}
   - component: {fileID: 492929961}
   - component: {fileID: 492929960}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2350,7 +2415,7 @@ GameObject:
   - component: {fileID: 494219753}
   - component: {fileID: 494219752}
   - component: {fileID: 494219751}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2458,7 +2523,7 @@ GameObject:
   - component: {fileID: 510805807}
   - component: {fileID: 510805806}
   - component: {fileID: 510805805}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2554,6 +2619,43 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510805803}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &546815191 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8746678193447392789, guid: 761cdc9e4e883334cbdcea062d0befa7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1933152399}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &560395172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 560395173}
+  m_Layer: 0
+  m_Name: patrol1 (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &560395173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560395172}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 349.7, y: 0, z: 284}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805831605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &573839352
 GameObject:
   m_ObjectHideFlags: 0
@@ -2566,7 +2668,7 @@ GameObject:
   - component: {fileID: 573839356}
   - component: {fileID: 573839355}
   - component: {fileID: 573839354}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2674,7 +2776,7 @@ GameObject:
   - component: {fileID: 629892946}
   - component: {fileID: 629892945}
   - component: {fileID: 629892944}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2782,7 +2884,7 @@ GameObject:
   - component: {fileID: 633135656}
   - component: {fileID: 633135655}
   - component: {fileID: 633135654}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2890,7 +2992,7 @@ GameObject:
   - component: {fileID: 638609703}
   - component: {fileID: 638609702}
   - component: {fileID: 638609701}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2994,6 +3096,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 136806910776417928, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.322
+      objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269652, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: m_Name
@@ -3001,8 +3108,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: -299.38974
+      value: -299.6
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
@@ -3049,12 +3171,74 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2104015986810675393, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: ShellPoolSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2231955200838058728, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 4.6156654
+      objectReference: {fileID: 0}
+    - target: {fileID: 2231955200838058728, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: MinDistance
+      value: 1.6254425
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809973363424661249, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: AttackRange
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809973363424661249, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: DetectionRange
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809973363424661249, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: KnownTargetTimeout
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809973363424661249, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: DetectionSourcePoint
+      value: 
+      objectReference: {fileID: 1268383688}
+    - target: {fileID: 7406548990343174644, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: m_Speed
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406548990343174644, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 9087143436424816424, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      propertyPath: OrientationSpeed
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3464315327790461765, guid: 25a1b0efadb966e44889fce712c8ff8d, type: 3}
     - {fileID: 797398738606809810, guid: 25a1b0efadb966e44889fce712c8ff8d, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2015434656898269652, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1994146472}
+    - targetCorrespondingSourceObject: {fileID: 2015434656898269652, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1994146473}
+    - targetCorrespondingSourceObject: {fileID: 2015434656898269652, guid: 25a1b0efadb966e44889fce712c8ff8d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1994146474}
   m_SourcePrefab: {fileID: 100100000, guid: 25a1b0efadb966e44889fce712c8ff8d, type: 3}
 --- !u!1 &662562357
 GameObject:
@@ -3068,7 +3252,7 @@ GameObject:
   - component: {fileID: 662562361}
   - component: {fileID: 662562360}
   - component: {fileID: 662562359}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3176,7 +3360,7 @@ GameObject:
   - component: {fileID: 690528810}
   - component: {fileID: 690528809}
   - component: {fileID: 690528808}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3284,7 +3468,7 @@ GameObject:
   - component: {fileID: 694559815}
   - component: {fileID: 694559814}
   - component: {fileID: 694559813}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3392,7 +3576,7 @@ GameObject:
   - component: {fileID: 695972675}
   - component: {fileID: 695972674}
   - component: {fileID: 695972673}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3500,7 +3684,7 @@ GameObject:
   - component: {fileID: 696229902}
   - component: {fileID: 696229901}
   - component: {fileID: 696229900}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3606,7 +3790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705215658}
   - component: {fileID: 705215659}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: --- CornWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3753,7 +3937,7 @@ GameObject:
   - component: {fileID: 713017899}
   - component: {fileID: 713017898}
   - component: {fileID: 713017897}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3861,7 +4045,7 @@ GameObject:
   - component: {fileID: 728362472}
   - component: {fileID: 728362471}
   - component: {fileID: 728362470}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3969,7 +4153,7 @@ GameObject:
   - component: {fileID: 728506625}
   - component: {fileID: 728506624}
   - component: {fileID: 728506623}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4077,7 +4261,7 @@ GameObject:
   - component: {fileID: 734071846}
   - component: {fileID: 734071845}
   - component: {fileID: 734071844}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4185,7 +4369,7 @@ GameObject:
   - component: {fileID: 744595218}
   - component: {fileID: 744595217}
   - component: {fileID: 744595216}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4293,7 +4477,7 @@ GameObject:
   - component: {fileID: 748105538}
   - component: {fileID: 748105537}
   - component: {fileID: 748105536}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4401,7 +4585,7 @@ GameObject:
   - component: {fileID: 784325511}
   - component: {fileID: 784325510}
   - component: {fileID: 784325509}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4509,7 +4693,7 @@ GameObject:
   - component: {fileID: 804009229}
   - component: {fileID: 804009228}
   - component: {fileID: 804009227}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4605,6 +4789,106 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804009225}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &805831603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 805831605}
+  - component: {fileID: 805831604}
+  m_Layer: 0
+  m_Name: Patrol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &805831604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805831603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ec2f49cb5488d0459ff53ecc714acb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemiesToAssign:
+  - {fileID: 993270232}
+  PathNodes:
+  - {fileID: 1131066008}
+  - {fileID: 1213611679}
+  - {fileID: 1589321023}
+  - {fileID: 2111149581}
+  - {fileID: 1046919730}
+  - {fileID: 560395173}
+  - {fileID: 1027854802}
+  - {fileID: 187243323}
+  - {fileID: 2077002348}
+  - {fileID: 1151009874}
+  - {fileID: 807460762}
+--- !u!4 &805831605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805831603}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -296.2, y: 0, z: 10.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1131066008}
+  - {fileID: 1213611679}
+  - {fileID: 1589321023}
+  - {fileID: 2111149581}
+  - {fileID: 1046919730}
+  - {fileID: 560395173}
+  - {fileID: 1027854802}
+  - {fileID: 187243323}
+  - {fileID: 2077002348}
+  - {fileID: 1151009874}
+  - {fileID: 807460762}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &807460761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 807460762}
+  m_Layer: 0
+  m_Name: patrol1 (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &807460762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807460761}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 70.2, y: 0, z: -278.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805831605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &816947888
 GameObject:
   m_ObjectHideFlags: 0
@@ -4617,7 +4901,7 @@ GameObject:
   - component: {fileID: 816947892}
   - component: {fileID: 816947891}
   - component: {fileID: 816947890}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4725,7 +5009,7 @@ GameObject:
   - component: {fileID: 823866029}
   - component: {fileID: 823866028}
   - component: {fileID: 823866027}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4882,7 +5166,7 @@ GameObject:
   - component: {fileID: 844276532}
   - component: {fileID: 844276531}
   - component: {fileID: 844276530}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (95)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4990,7 +5274,7 @@ GameObject:
   - component: {fileID: 851002498}
   - component: {fileID: 851002497}
   - component: {fileID: 851002496}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5098,7 +5382,7 @@ GameObject:
   - component: {fileID: 864555325}
   - component: {fileID: 864555324}
   - component: {fileID: 864555323}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5206,7 +5490,7 @@ GameObject:
   - component: {fileID: 867196664}
   - component: {fileID: 867196663}
   - component: {fileID: 867196662}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5314,7 +5598,7 @@ GameObject:
   - component: {fileID: 907844768}
   - component: {fileID: 907844767}
   - component: {fileID: 907844766}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5422,7 +5706,7 @@ GameObject:
   - component: {fileID: 936703050}
   - component: {fileID: 936703049}
   - component: {fileID: 936703048}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5518,6 +5802,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936703046}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &993270232 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9087143436424816424, guid: 25a1b0efadb966e44889fce712c8ff8d,
+    type: 3}
+  m_PrefabInstance: {fileID: 646802915}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994146465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de939d976a5bb0419ccd8dbd0b6836b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1016118024
 GameObject:
   m_ObjectHideFlags: 0
@@ -5530,7 +5826,7 @@ GameObject:
   - component: {fileID: 1016118028}
   - component: {fileID: 1016118027}
   - component: {fileID: 1016118026}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5638,7 +5934,7 @@ GameObject:
   - component: {fileID: 1021549256}
   - component: {fileID: 1021549255}
   - component: {fileID: 1021549254}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5734,6 +6030,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021549252}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1027854801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1027854802}
+  m_Layer: 0
+  m_Name: patrol1 (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1027854802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027854801}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 512.8, y: 0, z: 169}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805831605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1032511906
 GameObject:
   m_ObjectHideFlags: 0
@@ -5746,7 +6073,7 @@ GameObject:
   - component: {fileID: 1032511910}
   - component: {fileID: 1032511909}
   - component: {fileID: 1032511908}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5854,7 +6181,7 @@ GameObject:
   - component: {fileID: 1043214884}
   - component: {fileID: 1043214883}
   - component: {fileID: 1043214882}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (94)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5950,6 +6277,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043214880}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1046919729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1046919730}
+  m_Layer: 0
+  m_Name: patrol1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1046919730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046919729}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 257.2, y: 0, z: 49.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805831605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1072628678
 GameObject:
   m_ObjectHideFlags: 0
@@ -5962,7 +6320,7 @@ GameObject:
   - component: {fileID: 1072628682}
   - component: {fileID: 1072628681}
   - component: {fileID: 1072628680}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6070,7 +6428,7 @@ GameObject:
   - component: {fileID: 1083333779}
   - component: {fileID: 1083333778}
   - component: {fileID: 1083333777}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6178,7 +6536,7 @@ GameObject:
   - component: {fileID: 1095648212}
   - component: {fileID: 1095648211}
   - component: {fileID: 1095648210}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6274,6 +6632,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095648208}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1131066007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1131066008}
+  m_Layer: 0
+  m_Name: patrol1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1131066008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131066007}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805831605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1132600907
 GameObject:
   m_ObjectHideFlags: 0
@@ -6286,7 +6675,7 @@ GameObject:
   - component: {fileID: 1132600911}
   - component: {fileID: 1132600910}
   - component: {fileID: 1132600909}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6382,6 +6771,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132600907}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1151009873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1151009874}
+  m_Layer: 0
+  m_Name: patrol1 (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1151009874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151009873}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 347.6, y: 0, z: -278.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805831605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1206546636
 GameObject:
   m_ObjectHideFlags: 0
@@ -6394,7 +6814,7 @@ GameObject:
   - component: {fileID: 1206546640}
   - component: {fileID: 1206546639}
   - component: {fileID: 1206546638}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6502,7 +6922,7 @@ GameObject:
   - component: {fileID: 1213202015}
   - component: {fileID: 1213202014}
   - component: {fileID: 1213202013}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6598,6 +7018,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213202011}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1213611678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1213611679}
+  m_Layer: 0
+  m_Name: patrol1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1213611679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213611678}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17, y: 0, z: 128.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805831605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1261173370
 GameObject:
   m_ObjectHideFlags: 0
@@ -6610,7 +7061,7 @@ GameObject:
   - component: {fileID: 1261173374}
   - component: {fileID: 1261173373}
   - component: {fileID: 1261173372}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6706,6 +7157,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261173370}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1268383688 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 320366457750808919, guid: 25a1b0efadb966e44889fce712c8ff8d,
+    type: 3}
+  m_PrefabInstance: {fileID: 646802915}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1275373567
 GameObject:
   m_ObjectHideFlags: 0
@@ -6718,7 +7175,7 @@ GameObject:
   - component: {fileID: 1275373571}
   - component: {fileID: 1275373570}
   - component: {fileID: 1275373569}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6826,7 +7283,7 @@ GameObject:
   - component: {fileID: 1296543436}
   - component: {fileID: 1296543435}
   - component: {fileID: 1296543434}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6934,7 +7391,7 @@ GameObject:
   - component: {fileID: 1299943181}
   - component: {fileID: 1299943180}
   - component: {fileID: 1299943179}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7042,7 +7499,7 @@ GameObject:
   - component: {fileID: 1315662446}
   - component: {fileID: 1315662445}
   - component: {fileID: 1315662444}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7150,6 +7607,7 @@ GameObject:
   - component: {fileID: 1316490241}
   - component: {fileID: 1316490240}
   - component: {fileID: 1316490239}
+  - component: {fileID: 1316490243}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -7240,12 +7698,152 @@ Transform:
   m_GameObject: {fileID: 1316490238}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -342.02524, y: 3.5371933, z: 99.17424}
+  m_LocalPosition: {x: -342.02524, y: 3.51, z: 99.17424}
   m_LocalScale: {x: 48.26705, y: 7.07438, z: 13.579329}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1316490243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316490238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90068f5c8ba86d3499874221895df26b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_IgnoreFromBuild: 1
+  m_AffectedAgents: ffffffff
+--- !u!1 &1340434028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1340434029}
+  - component: {fileID: 1340434033}
+  - component: {fileID: 1340434032}
+  - component: {fileID: 1340434031}
+  - component: {fileID: 1340434030}
+  m_Layer: 0
+  m_Name: Capsule (1)
+  m_TagString: player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1340434029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340434028}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9315, y: 4.3076, z: -0.9452}
+  m_LocalScale: {x: 2.8631, y: 5.307584, z: 2.8904}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 546815191}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1340434030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340434028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c2f9e22ba34f8240b345ce83f369572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCapsule: {fileID: 1772743225}
+--- !u!136 &1340434031
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340434028}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1340434032
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340434028}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1340434033
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340434028}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1367523337
 GameObject:
   m_ObjectHideFlags: 0
@@ -7258,7 +7856,7 @@ GameObject:
   - component: {fileID: 1367523341}
   - component: {fileID: 1367523340}
   - component: {fileID: 1367523339}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7366,7 +7964,7 @@ GameObject:
   - component: {fileID: 1392214991}
   - component: {fileID: 1392214990}
   - component: {fileID: 1392214989}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7462,6 +8060,70 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392214987}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1409788272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409788274}
+  - component: {fileID: 1409788273}
+  m_Layer: 0
+  m_Name: NavMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1409788273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409788272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 1
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.6666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: c6498e3868a47f946bfc7a5d202b0629, type: 2}
+  m_BuildHeightMesh: 0
+--- !u!4 &1409788274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409788272}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 81.228134, y: -1526.2253, z: -606.73676}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1455976582
 GameObject:
   m_ObjectHideFlags: 0
@@ -7474,7 +8136,7 @@ GameObject:
   - component: {fileID: 1455976586}
   - component: {fileID: 1455976585}
   - component: {fileID: 1455976584}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7582,7 +8244,7 @@ GameObject:
   - component: {fileID: 1472209731}
   - component: {fileID: 1472209730}
   - component: {fileID: 1472209729}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7690,7 +8352,7 @@ GameObject:
   - component: {fileID: 1479791038}
   - component: {fileID: 1479791037}
   - component: {fileID: 1479791036}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7798,7 +8460,7 @@ GameObject:
   - component: {fileID: 1484867189}
   - component: {fileID: 1484867188}
   - component: {fileID: 1484867187}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7906,7 +8568,7 @@ GameObject:
   - component: {fileID: 1490631440}
   - component: {fileID: 1490631439}
   - component: {fileID: 1490631438}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8014,7 +8676,7 @@ GameObject:
   - component: {fileID: 1503567606}
   - component: {fileID: 1503567605}
   - component: {fileID: 1503567604}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8122,7 +8784,7 @@ GameObject:
   - component: {fileID: 1507668896}
   - component: {fileID: 1507668895}
   - component: {fileID: 1507668894}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8230,7 +8892,7 @@ GameObject:
   - component: {fileID: 1510980881}
   - component: {fileID: 1510980880}
   - component: {fileID: 1510980879}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8338,7 +9000,7 @@ GameObject:
   - component: {fileID: 1526777960}
   - component: {fileID: 1526777959}
   - component: {fileID: 1526777958}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8446,7 +9108,7 @@ GameObject:
   - component: {fileID: 1539289216}
   - component: {fileID: 1539289215}
   - component: {fileID: 1539289214}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8542,6 +9204,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539289212}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1589321022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1589321023}
+  m_Layer: 0
+  m_Name: patrol1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1589321023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589321022}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 222.2, y: 0, z: 129.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805831605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1600779764
 GameObject:
   m_ObjectHideFlags: 0
@@ -8554,7 +9247,7 @@ GameObject:
   - component: {fileID: 1600779768}
   - component: {fileID: 1600779767}
   - component: {fileID: 1600779766}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8662,7 +9355,7 @@ GameObject:
   - component: {fileID: 1605370908}
   - component: {fileID: 1605370907}
   - component: {fileID: 1605370906}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8770,7 +9463,7 @@ GameObject:
   - component: {fileID: 1613751660}
   - component: {fileID: 1613751659}
   - component: {fileID: 1613751658}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8878,7 +9571,7 @@ GameObject:
   - component: {fileID: 1621576796}
   - component: {fileID: 1621576795}
   - component: {fileID: 1621576794}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8986,7 +9679,7 @@ GameObject:
   - component: {fileID: 1652989742}
   - component: {fileID: 1652989741}
   - component: {fileID: 1652989740}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9094,7 +9787,7 @@ GameObject:
   - component: {fileID: 1666446103}
   - component: {fileID: 1666446102}
   - component: {fileID: 1666446101}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9202,7 +9895,7 @@ GameObject:
   - component: {fileID: 1672640102}
   - component: {fileID: 1672640101}
   - component: {fileID: 1672640100}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9310,7 +10003,7 @@ GameObject:
   - component: {fileID: 1678551616}
   - component: {fileID: 1678551615}
   - component: {fileID: 1678551614}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (96)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9418,7 +10111,7 @@ GameObject:
   - component: {fileID: 1687829344}
   - component: {fileID: 1687829343}
   - component: {fileID: 1687829342}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9514,70 +10207,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687829340}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1701051770
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1701051772}
-  - component: {fileID: 1701051771}
-  m_Layer: 0
-  m_Name: NavMesh Surface
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1701051771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1701051770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedVersion: 0
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_DefaultArea: 0
-  m_GenerateLinks: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: d5f33b14000901946a8d795266fe16d5, type: 2}
-  m_BuildHeightMesh: 0
---- !u!4 &1701051772
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1701051770}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -88.8337, y: -319.7, z: -9.724507}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1737897837
 GameObject:
   m_ObjectHideFlags: 0
@@ -9590,7 +10219,7 @@ GameObject:
   - component: {fileID: 1737897841}
   - component: {fileID: 1737897840}
   - component: {fileID: 1737897839}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9698,7 +10327,7 @@ GameObject:
   - component: {fileID: 1754880774}
   - component: {fileID: 1754880773}
   - component: {fileID: 1754880772}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9794,6 +10423,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754880770}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1772743225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7442781921941657531, guid: 761cdc9e4e883334cbdcea062d0befa7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1933152399}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1776317870
 GameObject:
   m_ObjectHideFlags: 0
@@ -9806,7 +10441,7 @@ GameObject:
   - component: {fileID: 1776317874}
   - component: {fileID: 1776317873}
   - component: {fileID: 1776317872}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9914,6 +10549,7 @@ GameObject:
   - component: {fileID: 1794430722}
   - component: {fileID: 1794430721}
   - component: {fileID: 1794430720}
+  - component: {fileID: 1794430724}
   m_Layer: 0
   m_Name: CarPart (2)
   m_TagString: Untagged
@@ -10010,6 +10646,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1794430724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794430719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90068f5c8ba86d3499874221895df26b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_IgnoreFromBuild: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1795379410
 GameObject:
   m_ObjectHideFlags: 0
@@ -10022,7 +10674,7 @@ GameObject:
   - component: {fileID: 1795379414}
   - component: {fileID: 1795379413}
   - component: {fileID: 1795379412}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10130,7 +10782,7 @@ GameObject:
   - component: {fileID: 1831968567}
   - component: {fileID: 1831968566}
   - component: {fileID: 1831968565}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10238,7 +10890,7 @@ GameObject:
   - component: {fileID: 1845900465}
   - component: {fileID: 1845900464}
   - component: {fileID: 1845900463}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10346,7 +10998,7 @@ GameObject:
   - component: {fileID: 1850872133}
   - component: {fileID: 1850872132}
   - component: {fileID: 1850872131}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10454,7 +11106,7 @@ GameObject:
   - component: {fileID: 1857991789}
   - component: {fileID: 1857991788}
   - component: {fileID: 1857991787}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (97)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10562,7 +11214,7 @@ GameObject:
   - component: {fileID: 1870278095}
   - component: {fileID: 1870278094}
   - component: {fileID: 1870278093}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10670,6 +11322,7 @@ GameObject:
   - component: {fileID: 1928779653}
   - component: {fileID: 1928779652}
   - component: {fileID: 1928779651}
+  - component: {fileID: 1928779655}
   m_Layer: 0
   m_Name: CarPart
   m_TagString: Untagged
@@ -10766,6 +11419,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1928779655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928779650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90068f5c8ba86d3499874221895df26b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_IgnoreFromBuild: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1933152399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10781,6 +11450,10 @@ PrefabInstance:
     - target: {fileID: 806887368, guid: 761cdc9e4e883334cbdcea062d0befa7, type: 3}
       propertyPath: m_LocalScale.y
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661717823, guid: 761cdc9e4e883334cbdcea062d0befa7, type: 3}
+      propertyPath: MinDistance
+      value: 3.8229368
       objectReference: {fileID: 0}
     - target: {fileID: 298744117520805562, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
@@ -10830,27 +11503,42 @@ PrefabInstance:
     - target: {fileID: 814417836257332542, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: CameraHeightRatio
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 814417836257332542, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: SprintSpeedModifier
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1272397862697293493, guid: 761cdc9e4e883334cbdcea062d0befa7,
+        type: 3}
+      propertyPath: MinDistance
+      value: 3.1760638
+      objectReference: {fileID: 0}
     - target: {fileID: 2286125971047457827, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: m_ClearFlags
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3122855503829242450, guid: 761cdc9e4e883334cbdcea062d0befa7,
+        type: 3}
+      propertyPath: m_Height
+      value: 1.8
+      objectReference: {fileID: 0}
     - target: {fileID: 6268538116984687401, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: AimPoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1340434029}
     - target: {fileID: 7253983127304857660, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253983127304857660, guid: 761cdc9e4e883334cbdcea062d0befa7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7267769575523271762, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
@@ -10865,17 +11553,17 @@ PrefabInstance:
     - target: {fileID: 8746678193447392789, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -264.48
+      value: -70.4
       objectReference: {fileID: 0}
     - target: {fileID: 8746678193447392789, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.8
+      value: 1.62
       objectReference: {fileID: 0}
     - target: {fileID: 8746678193447392789, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -119.47
+      value: 119.3
       objectReference: {fileID: 0}
     - target: {fileID: 8746678193447392789, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
@@ -10920,7 +11608,11 @@ PrefabInstance:
     - {fileID: 2020865915525802225, guid: 761cdc9e4e883334cbdcea062d0befa7, type: 3}
     - {fileID: 2243299550434712804, guid: 761cdc9e4e883334cbdcea062d0befa7, type: 3}
     - {fileID: 1643745102531713927, guid: 761cdc9e4e883334cbdcea062d0befa7, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8746678193447392789, guid: 761cdc9e4e883334cbdcea062d0befa7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1340434029}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 761cdc9e4e883334cbdcea062d0befa7, type: 3}
 --- !u!1 &1934611268
@@ -10935,7 +11627,7 @@ GameObject:
   - component: {fileID: 1934611272}
   - component: {fileID: 1934611271}
   - component: {fileID: 1934611270}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11043,7 +11735,7 @@ GameObject:
   - component: {fileID: 1957173545}
   - component: {fileID: 1957173544}
   - component: {fileID: 1957173543}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11151,7 +11843,7 @@ GameObject:
   - component: {fileID: 1960903966}
   - component: {fileID: 1960903965}
   - component: {fileID: 1960903964}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11259,7 +11951,7 @@ GameObject:
   - component: {fileID: 1964829934}
   - component: {fileID: 1964829933}
   - component: {fileID: 1964829932}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11367,7 +12059,7 @@ GameObject:
   - component: {fileID: 1966834955}
   - component: {fileID: 1966834954}
   - component: {fileID: 1966834953}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11463,6 +12155,72 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966834951}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1994146465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2015434656898269652, guid: 25a1b0efadb966e44889fce712c8ff8d,
+    type: 3}
+  m_PrefabInstance: {fileID: 646802915}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &1994146472
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994146465}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1994146473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994146465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3ebef4ac5532d478139dc915785d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &1994146474
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994146465}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1996212575
 GameObject:
   m_ObjectHideFlags: 0
@@ -11475,7 +12233,7 @@ GameObject:
   - component: {fileID: 1996212579}
   - component: {fileID: 1996212578}
   - component: {fileID: 1996212577}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11583,7 +12341,7 @@ GameObject:
   - component: {fileID: 1996418349}
   - component: {fileID: 1996418348}
   - component: {fileID: 1996418347}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11691,7 +12449,7 @@ GameObject:
   - component: {fileID: 2011897668}
   - component: {fileID: 2011897667}
   - component: {fileID: 2011897666}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11799,7 +12557,7 @@ GameObject:
   - component: {fileID: 2054066859}
   - component: {fileID: 2054066858}
   - component: {fileID: 2054066857}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11895,6 +12653,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2054066855}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2077002347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2077002348}
+  m_Layer: 0
+  m_Name: patrol1 (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2077002348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077002347}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 373.5, y: 0, z: -14.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805831605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2101368940
 GameObject:
   m_ObjectHideFlags: 0
@@ -11907,7 +12696,7 @@ GameObject:
   - component: {fileID: 2101368944}
   - component: {fileID: 2101368943}
   - component: {fileID: 2101368942}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12015,7 +12804,7 @@ GameObject:
   - component: {fileID: 2107968750}
   - component: {fileID: 2107968749}
   - component: {fileID: 2107968748}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12111,6 +12900,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107968746}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2111149580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2111149581}
+  m_Layer: 0
+  m_Name: patrol1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2111149581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111149580}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 377.9, y: 0, z: 129.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805831605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2120755205
 GameObject:
   m_ObjectHideFlags: 0
@@ -12123,7 +12943,7 @@ GameObject:
   - component: {fileID: 2120755209}
   - component: {fileID: 2120755208}
   - component: {fileID: 2120755207}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12231,7 +13051,7 @@ GameObject:
   - component: {fileID: 2130210544}
   - component: {fileID: 2130210543}
   - component: {fileID: 2130210542}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CornWall (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12446,4 +13266,5 @@ SceneRoots:
   - {fileID: 739382259449670623}
   - {fileID: 1933152399}
   - {fileID: 646802915}
-  - {fileID: 1701051772}
+  - {fileID: 1409788274}
+  - {fileID: 805831605}
