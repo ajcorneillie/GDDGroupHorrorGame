@@ -11,4 +11,9 @@ public class WinScreenEscapeDrive : MonoBehaviour
     {
         transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + escapeSpeed);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

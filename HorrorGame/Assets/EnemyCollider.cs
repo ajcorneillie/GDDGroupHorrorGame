@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyCollider : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class EnemyCollider : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("player"))
         {
-            Debug.Log("you lose");
+            SceneManager.LoadScene("LOSSHorror");
         }
     }
 }
