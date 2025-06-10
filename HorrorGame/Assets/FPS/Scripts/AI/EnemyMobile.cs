@@ -111,7 +111,7 @@ namespace Unity.FPS.AI
                 case AIState.Follow:
                     m_EnemyController.SetNavDestination(m_EnemyController.KnownDetectedTarget.transform.position);
                     m_EnemyController.OrientTowards(m_EnemyController.KnownDetectedTarget.transform.position);
-                    m_EnemyController.OrientWeaponsTowards(m_EnemyController.KnownDetectedTarget.transform.position);
+                    
                     break;
                 case AIState.Attack:
                     if (Vector3.Distance(m_EnemyController.KnownDetectedTarget.transform.position,
@@ -146,11 +146,6 @@ namespace Unity.FPS.AI
             for (int i = 0; i < OnDetectVfx.Length; i++)
             {
                 OnDetectVfx[i].Play();
-            }
-
-            if (OnDetectSfx)
-            {
-                AudioUtility.CreateSFX(OnDetectSfx, transform.position, AudioUtility.AudioGroups.EnemyDetection, 1f);
             }
 
             Animator.SetBool(k_AnimAlertedParameter, true);

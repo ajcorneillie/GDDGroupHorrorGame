@@ -389,22 +389,14 @@ namespace Unity.FPS.AI
             }
         }
 
-        public void OrientWeaponsTowards(Vector3 lookPosition)
-        {
-            for (int i = 0; i < m_Weapons.Length; i++)
-            {
-                // orient weapon towards player
-                Vector3 weaponForward = (lookPosition - m_Weapons[i].WeaponRoot.transform.position).normalized;
-                m_Weapons[i].transform.forward = weaponForward;
-            }
-        }
+        
 
         public bool TryAtack(Vector3 enemyPosition)
         {
             if (m_GameFlowManager.GameIsEnding)
                 return false;
 
-            OrientWeaponsTowards(enemyPosition);
+            
 
             if ((m_LastTimeWeaponSwapped + DelayAfterWeaponSwap) >= Time.time)
                 return false;
